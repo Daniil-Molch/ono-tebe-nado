@@ -1,1 +1,109 @@
-/* место для вашего кода */
+body {
+  width: 1100px;
+  height: 2980px;
+  margin: 0;
+}
+
+
+.header {
+  max-height: 450px;
+  padding: 92px 24px 91px 24px;
+  display: flex;
+  justify-content: space-around;
+}
+.header_menu {
+  width: 388px;
+  height: 23px;
+  flex-shrink: 0;
+}
+.header_menu_list_left {
+  display: flex;
+
+  list-style: none;
+}
+.header_menu_link {
+  color: #000;
+  font-family: Raleway;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.header-logo-img {
+  width: 148px;
+  height: 105px;
+  flex-shrink: 0;
+}
+.header_menu_nav {
+  width: 240px;
+  height: 97px;
+  flex-shrink: 0;
+}
+.cover {
+  min-height: 757px;
+  padding: 91px 9px 163px 9px;
+  display: flex;
+  background-image: url(../images/lotus-flower.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+ /* background: rgba(0, 0, 0, 0.60);*/
+  
+}
+
+.cover-title {
+  width: 100%;
+}
+.text-start {
+  color: #fff;
+  font-family: Raleway;
+  font-size: 100px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 115%; /* 115px */
+  letter-spacing: 30px;
+  text-transform: uppercase;
+}
+.accent-span {
+  display: block;
+  color: white;
+}
+.text-center {
+  color: #fff;
+  font-family: Raleway;
+  font-size: 100px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 100%; /* 100px */
+  letter-spacing: 28px;
+  text-transform: uppercase;
+  text-align: center;
+}
+.text-right {
+  color: #fff;
+  text-align: right;
+  font-family: Raleway;
+  font-size: 100px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 100%; /* 100px */
+  letter-spacing: 59px;
+  text-transform: uppercase;
+  text-align: right;
+}
+.text {
+  margin: bottom;
+  color: #FFF;
+  font-family: Raleway;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px; /* 127.273% */
+  text-transform: uppercase;
+}
+
+.about {
+  padding: 177px 9px 181px 9px;
+}
+.foooter {
+  padding: 181px 58px 89px 58px;
+}

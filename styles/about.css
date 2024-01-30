@@ -1,0 +1,37 @@
+.about{
+    padding-inline: 9px;
+    display: grid;
+    grid-template-columns: 1fr 2fr ;
+    gap:25px;
+}
+
+.black-cir{
+    
+    inset: 0;
+    z-index: -1;
+}
+.header-logo-img-white{
+    z-index: 0;
+}
+.header-about{
+    color: #000;
+font-family: Raleway;
+font-size: 40px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+text-transform: uppercase;
+
+}
+.about.column{
+    display: flex;
+    justify-items: last baseline;
+}
+.about.column > p {
+    color: #000;
+    font-family: Raleway;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
