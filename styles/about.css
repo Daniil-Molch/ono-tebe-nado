@@ -1,18 +1,36 @@
 .about{
-    padding-inline: 9px;
+    padding-inline: 20px;
     display: grid;
-    grid-template-columns: 1fr 2fr ;
-    gap:25px;
+    grid-template-columns: [firts]334px 2fr ;
+    column-gap:25px;
+    min-height: 595px;
+    
+    align-items: baseline;
+    justify-items: end;
+    padding-top: 35px;
+
 }
 
-.black-cir{
-    
-    inset: 0;
-    z-index: -1;
+.logo-column{
+    display:flex;
+   width: 240px;
+   height: 240px;
+   margin: 0 71px;
+   border-radius: 50%;
+   background: #000;
+   
 }
+
 .header-logo-img-white{
-    z-index: 0;
+    width: 148px;
+    height: 114px;
+    margin: auto;
+    object-fit: contain;
 }
+.about-column{
+    min-height: 449px;
+}
+
 .header-about{
     color: #000;
 font-family: Raleway;
@@ -21,11 +39,45 @@ font-style: normal;
 font-weight: 700;
 line-height: normal;
 text-transform: uppercase;
+margin-bottom: 100px;
+}
+.about-text-1{
+/* Здесь вы не встретите очередное пафосное собрание невероятно дорогого антиквариата. Наши лоты вообще не должны были попасть ни на один аукцион. Потому что кому нужен дневник девочки-подростка или картина, которую может нарисовать даже ребёнок? Кому нужны все эти странные вещи, созданные любителями? */
+
+
+
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+/* or 120% */
+letter-spacing: 0.01em;
+color: #000000;
+margin-bottom: 38px;
+
 
 }
+.about-text-2{
+    /* Слишком сложные или, наоборот, слишком простые. Опережающие своё время. В пух и прах растерзанные критиками. Непринятые и непонятые. Когда-то они казались просто неудачными. Но, несмотря на критику, кажущуюся простоту или сложность, сейчас без этих лотов невозможно представить современную культуру. Когда в эти вещи не верил никто, продолжали верить их создатели. И сейчас эти лоты стали культовыми. */
+
+
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+/* or 120% */
+
+color: #000000;
+
+
+}
+/*
 .about.column{
     display: flex;
     justify-items: last baseline;
+    min-height: 450px;
 }
 .about.column > p {
     color: #000;

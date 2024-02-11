@@ -6,104 +6,96 @@ body {
 
 
 .header {
-  max-height: 450px;
-  padding: 92px 24px 91px 24px;
-  display: flex;
-  justify-content: space-around;
+  /*max-height: 450px;*/
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+  padding: 92px 49.5px 96px 50.5px;
 }
 .header_menu {
   width: 388px;
-  height: 23px;
-  flex-shrink: 0;
-}
-.header_menu_list_left {
+  height: 23px; 
+  display: grid;
   display: flex;
+  align-items: center;
+  column-gap: 13px;
+  
+}
 
+
+/*.header_menu_item{
+  display: flex;
+  align-items: center;
+  
+}*/
+/*.test{
+  margin-right: 13.5px;
+}*/
+.header_menu_item_active{
   list-style: none;
 }
+
+
 .header_menu_link {
   color: #000;
   font-family: Raleway;
-  font-size: 20px;
+  font-size: 18px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+  text-underline-offset: 5px;
 }
-.header-logo-img {
+/*.smalldot{
+  padding: 8px 11px 6px 13px;
+}*/
+.header-logo {
+  display: block;
+  justify-self: center;
   width: 148px;
   height: 105px;
-  flex-shrink: 0;
+  
+}
+.header-logo-img {
+max-height: 100%;
+object-fit: contain;
+}
+.header_menu_list_right{
+  font-weight: 400;
+  font-size: 18px;
+  font-style: normal;
+  line-height: 24.3px;
+
 }
 .header_menu_nav {
   width: 240px;
-  height: 97px;
-  flex-shrink: 0;
+  height: 98px;
+  justify-self: end;
 }
-.cover {
+.header_menu_nav_link{
+  text-underline-offset: 5px;
+
+}
+/*.cover {
+  position: relative;
+  z-index: 1; 
   min-height: 757px;
   padding: 91px 9px 163px 9px;
   display: flex;
   background-image: url(../images/lotus-flower.png);
   background-repeat: no-repeat;
   background-size: 100%;
- /* background: rgba(0, 0, 0, 0.60);*/
+ /* background: rgba(0, 0, 0, 0.60);
   
 }
-
-.cover-title {
+.cover-overlay{
+  position:absolute;
+  z-index: -1;
+  top:0;
+  left:0;
   width: 100%;
-}
-.text-start {
-  color: #fff;
-  font-family: Raleway;
-  font-size: 100px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 115%; /* 115px */
-  letter-spacing: 30px;
-  text-transform: uppercase;
-}
-.accent-span {
-  display: block;
-  color: white;
-}
-.text-center {
-  color: #fff;
-  font-family: Raleway;
-  font-size: 100px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 100%; /* 100px */
-  letter-spacing: 28px;
-  text-transform: uppercase;
-  text-align: center;
-}
-.text-right {
-  color: #fff;
-  text-align: right;
-  font-family: Raleway;
-  font-size: 100px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 100%; /* 100px */
-  letter-spacing: 59px;
-  text-transform: uppercase;
-  text-align: right;
-}
-.text {
-  margin: bottom;
-  color: #FFF;
-  font-family: Raleway;
-  font-size: 22px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 28px; /* 127.273% */
-  text-transform: uppercase;
-}
+  height: 100%;
+  background: rgba(0, 0, 0, 0.60);
 
-.about {
-  padding: 177px 9px 181px 9px;
-}
-.foooter {
-  padding: 181px 58px 89px 58px;
-}
+}*/
+
+

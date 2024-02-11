@@ -1,0 +1,206 @@
+.cover {
+    position: relative;
+    z-index: 1;
+    min-height: 757px;
+    padding: 165px 50px 51px 50px;
+    background-image: url(../images/lotus-flower.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    /* background: rgba(0, 0, 0, 0.60);*/
+    margin-bottom: 179px;
+  }
+  .cover-title {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    color: #fff;
+    font-family: Raleway;
+    font-size: 100px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100%;
+    letter-spacing: 30px;
+    text-transform: uppercase;
+    margin-bottom: 135px;
+  }
+  .line-top {
+    display: block;
+    text-align: left;
+  }
+  
+  .letter-spacing {
+    letter-spacing: 60px;
+  }
+  .no-letter-spacing {
+    letter-spacing: normal;
+  }
+  .line-middle {
+    display: block;
+    text-align: center;
+  }
+  .test-te {
+    letter-spacing: 30px;
+  }
+  .line-bottom {
+    display: block;
+    text-align: right;
+  }
+  
+  .footer-button {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .cover-footer {
+    width: 637px;
+    height: 28px;
+    left: 78px;
+    top: 667px;
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 28px;
+    /* identical to box height, or 127% */
+    text-transform: uppercase;
+    color: #ffffff;
+    word-spacing: 18px;
+    margin-left: 28px;
+    margin-right: 78px;
+  }
+  .button-2 {
+    border: 1px solid #fff;
+  
+    padding: 12px 32px 11px 32px;
+  
+    background: transparent;
+    color: #ffffff;
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 26px;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  
+  .cover-overlay {
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+  }
+  
+  .cover-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  /*
+  .line{
+      color: #FFF;
+  font-family: Raleway;
+  font-size: 100px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 100%;
+  letter-spacing: 28px;
+  text-transform: uppercase;
+  }
+  /*
+  .letter{
+      display:block;
+  }*/
+  
+  /* subline */
+  
+  /* оно */
+  
+  /*position: absolute;
+  width: 316px;
+  height: 115px;
+  left: 50px;
+  top: 165px;
+  
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 100px;
+  line-height: 115%;
+  
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+  
+  color: #FFFFFF;*/
+  
+  /* оно */
+  
+  /*position: absolute;
+  width: 316px;
+  height: 115px;
+  left: 50px;
+  top: 165px;
+  
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 100px;
+  line-height: 115%;
+  /* identical to box height, or 115px *
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+  
+  color: #FFFFFF;
+  
+  */
+  /* надо */
+  
+  /* button 
+  
+  position: absolute;
+  width: 256px;
+  height: 51px;
+  left: 794px;
+  top: 655px;
+  
+  
+  
+  /* Rectangle 6 *
+  
+  box-sizing: border-box;
+  
+  position: absolute;
+  width: 256px;
+  height: 51px;
+  left: 794px;
+  top: 655px;
+  
+  border: 1px solid #FFFFFF;
+  
+  
+  /* Сделать ставку *
+  
+  position: absolute;
+  width: 193px;
+  height: 28px;
+  left: calc(50% - 193px/2 + 371.5px);
+  top: 667px;
+  
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 26px;
+  text-align: center;
+  text-transform: uppercase;
+  
+  color: #FFFFFF;*/
+  

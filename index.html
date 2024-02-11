@@ -18,76 +18,97 @@
   <body>
 
     <header class="header content-section">
-      <nav class="header_menu">
-        <ul class="header_menu_list_left">
-          <li class="header_menu_item header_menu_item_active">
-            <a class="header_menu_link">главная</a>
-          </li>
-          <svg xmlns="http://www.w3.org/2000/svg" width="8" height="7" viewBox="0 0 8 7" fill="none">
-            <circle cx="3.69043" cy="3.5" r="3" stroke="black"/>
-          </svg>
-          <li class="header_menu_item">
+      <div class="header_menu">
+   
+          <div class="header_menu_item header_menu_item_active" margin-right="13px">
+            <a class="header_menu_link test"  >главная</a>
+          </div>
+          
+        
+          <div class="header_menu_item">
+            
+              <svg xmlns="http://www.w3.org/2000/svg" width="7" height="7" viewBox="0 0 7 7" fill="none">
+                <circle cx="3.69043" cy="3.5" r="3" stroke="black"/>
+              </svg>
+              
+
             <a class="header_menu_link" href="#0"> посмотреть лоты</a>
-          </li>
-          <svg xmlns="http://www.w3.org/2000/svg" width="8" height="7" viewBox="0 0 8 7" fill="none">
-            <circle cx="3.69043" cy="3.5" r="3" stroke="black"/>
-          </svg>
-          <li class="header_menu_item">
+          </div>
+          
+          
+          <div class="header_menu_item">
+            
+              <svg xmlns="http://www.w3.org/2000/svg" width="7" height="7" viewBox="0 0 7 7" fill="none" >
+                <circle cx="3.69043" cy="3.5" r="3" stroke="black" />
+              </svg>
+            
             <a class="header_menu_link" href="#0"> об аукционе</a>
-          </li>
-        </ul>
-      </nav>
+          </div>
+        </div>
+      </div>
 
       <a class="header-logo">
-      <img
-      class="header-logo-img"
-      src="./images/logo-black.svg"
-      alt="Логотип проекта"
-      />
+        <img
+        class="header-logo-img"
+        src="./images/logo-black.svg"
+        alt="Логотип проекта"
+        width="195";
+        height="150";
+        />
+      </a>
 
-      <nav class="header_menu_nav">
-        <ul class="header_menu_list_right">
-          <li class="header_menu_item header_menu_item_active">
-            <a class="header_menu_link"> +9 999 555 5555</a>
-          </li>
-          <li class="header_menu_item">
-            <a class="header_menu_link" href="#0"> info@sobaka.ge</a>
-          </li>
-          <li class="header_menu_item">
-            <a class="header_menu_link" href="#0">наб. Принсенграхт 263-265, Амстердам</a>
-          </li>
-        </ul>
-      </nav>
+      <div class="header_menu_nav">
+        <div class="header_menu_list_right">
+          <div class="header_menu_item header_menu_item_active">
+            <a class="header_menu_link" href="#0">  +9 999 555 5555</a>
+          </div>
+          <div class="header_menu_item">
+            <a class="header_menu_nav_link" href="#0"> info@sobaka.ge</a>
+          </div>
+          <div class="header_menu_item header_menu_item_active"> 
+            <a class="header_menu_nav_nolink" > наб. Принсенграхт 263-<br>265, Амстердам</a>
+          </div>
+        </div>
+      </div>
       
 
     </header>
-    <div class="cover">
+
+    <section class="cover">
       <div class="cover-content">
-        <div class="line line-top">
-          <span class="letter lettter-1"> о</span>
-          <span class="letter lettter-2"> н</span>
-          <span class="letter lettter-3"> о</span>
+        <h1 class="cover-title">
+       
+          <span class="line-top no-letter-spacing">о <span class="letter-spacing">но</span>
+        </span>
+          
+        
+        
+          <span class="line-middle no-letter-spacing"> т
+            <span class="letter-spacing  no-letter-spacing">е</span>
+          <span class="letter-spacing"> бе</span>
+        </span>
+        
+        
+          <span class="line-bottom"> 
+          <span class="letter-spacing">н</span>ад<span class="no-letter-spacing">о</span>
+        </span>
+          
+        
+        </h1>
+      <div class="footer-button">
+        <p class="cover-footer"> Аукцион    вещей,    в    которые    никто    не     верил </p>
+        
+          <button class="button-2" type="button"> Сделать ставку</button>
+
         </div>
-        <div class="line line-middle">
-          <span class="letter lettter-4"> т</span>
-          <span class="letter lettter-5"> е</span>
-          <span class="letter lettter-6"> б</span>
-          <span class="letter lettter-7"> е</span>
-        </div>
-        <div class="line line-middle">
-          <span class="letter lettter-8"> н</span>
-          <span class="letter lettter-9"> а</span>
-          <span class="letter lettter-10"> д</span>
-          <span class="letter lettter-11"> о</span>
-        </div>
-        <div class="cover-footer"> Аукцион    вещей,    в    которые    никто    не     верил</div>
+        
         <div class="cover-overlay"></div>
         <div class="cover-image"></div>
 
 
 
       </div>
-    </div>
+    </section>
 
     <!--<section class="cover content-section">
       <h1 class="cover-title">
@@ -105,13 +126,14 @@
       <h1 class="lots-header">
         ЛОТЫ
       </h1>
-    <div class="lots-cards-conteiner">
+    <div class="lots-cards-conteiner ">
       <div class="lots-card">
         <img
-      class="lots-card-background"
+      class="lots-card-background "
       src="./images/card-lot-01.jpg"
       alt="card-first"
       />
+      <div class="cover-overlay"></div>
         <h2>Фильм режиссёра, который  бросил киношколу</h2>
         <p>Не просто бросил, а ушёл с первой лекции. Какой была бы ваша ставка, если бы вы не знали, что режиссёр — Пол Томас Андерсон?</p>
 
@@ -122,6 +144,7 @@
       src="./images/card-lot-02.jpg"
       alt="card-second"
       />
+      <div class="cover-overlay"></div>
         <h2>Книга, где описан один скучный день из жизни рекламного агента</h2>
         <p>Объёмом почти в тысячу страниц. Иногда без знаков препинания и с переходами на древнеанглийский. В ней одновременно рассказывается о 16 июня 1904 года и об истории литературы, начиная с античных времён. И это всё накладывается на эпическую поэму Гомера. Сколько бы вы поставили на «Улисса» Джеймса Джойса?</p>
 
@@ -132,11 +155,13 @@
       src="./images/card-lot-03.jpg"
       alt="card-first"
       />
+      <div class="cover-overlay"></div>
         <h2>Картина, которую повторит даже 5-летний сын маминой подруги</h2>
         <p>Ну действительно, там линия, тут кружочек, а здесь и вовсе что-то похожее на инфузорию-туфельку. Никаких полей, лесов, котиков… Сколько бы вы на такое поставили, если бы не знали, что это — одна из революционных работ Кандинского?</p>
 
 
       </div>
+      <div class="lots-card-background-overlay"></div>
       
     </div>
       <a href="" class="see-more">посмотреть больше</a>
@@ -145,26 +170,26 @@
     <section class="about content-section">
       
         <div class="logo-column">
-        <div class="black-cir">
-        <svg xmlns="http://www.w3.org/2000/svg" width="237" height="237" viewBox="0 0 237 237" fill="none">
-          <circle cx="118.5" cy="118.5" r="118.5" fill="black"/>
-        </svg>
+        
+        <!--<svg xmlns="http://www.w3.org/2000/svg" width="237" height="237" viewBox="0 0 237 237" fill="none">
+          <circle cx="118.5" cy="118.5" r="118.5" fill="black"/>-->
+        
         <img
         class="header-logo-img-white"
         src="./images/logo-white.svg"
         alt="Логотип проекта 2"
+      
         />
         </div>
         
 
-      </div>
       <div class="about-column">
         <h1 class="header-about">
           Об аукционе
         </h1>
-        <p>Здесь вы не встретите очередное пафосное собрание невероятно дорогого антиквариата. Наши лоты вообще не должны были попасть ни на один аукцион. Потому что кому нужен дневник девочки-подростка или картина, которую может нарисовать даже ребёнок? Кому нужны все эти странные вещи, созданные любителями?
+        <p class="about-text-1">Здесь вы не встретите очередное пафосное собрание невероятно дорогого антиквариата. Наши лоты вообще не должны были попасть ни на один аукцион. Потому что кому нужен дневник девочки-подростка или картина, которую может нарисовать даже ребёнок? Кому нужны все эти странные вещи, созданные любителями?
         </p>
-        <p>Слишком сложные или, наоборот, слишком простые. Опережающие своё время. В пух и прах растерзанные критиками. Непринятые и непонятые. Когда-то они казались просто неудачными. Но, несмотря на критику, кажущуюся простоту или сложность, сейчас без этих лотов невозможно представить современную культуру. Когда в эти вещи не верил никто, продолжали верить их создатели. И сейчас эти лоты стали культовыми. 
+        <p class="about-text-2">Слишком сложные или, наоборот, слишком простые. Опережающие своё время. В пух и прах растерзанные критиками. Непринятые и непонятые. Когда-то они казались просто неудачными. Но, несмотря на критику, кажущуюся простоту или сложность, сейчас без этих лотов невозможно представить современную культуру. Когда в эти вещи не верил никто, продолжали верить их создатели. И сейчас эти лоты стали культовыми. 
         </p>
       </div>
     
@@ -172,42 +197,41 @@
     
     </section>
   </body>
-  <footer class="footer "> 
-  <section class="footer">
-    <div class="footer-menu">
-      <nav class="footer_menu_nav">
-        <ul class="footer_menu_list">
-          <li class="footer_menu_item footer_menu_item_active">
-            <a class="footer_menu_link"> +9 999 555 5555</a>
-          </li>
-          <li class="header_menu_item">
-            <a class="footer_menu_link" href="#0"> info@sobaka.ge</a>
-          </li>
-          <li class="footer">
-            <a class="footer_menu_link" href="#0">наб. Принсенграхт 263-265, Амстердам</a>
-          </li>
-        </ul>
-      </nav>
-    </div>
-    <div class="footer-menu">
-      <nav class="footer_menu">
-        <ul class="footer_menu_list_left">
-          <li class="footer_menu_item header_menu_item_active">
-            <a class="footer_menu_link">главная</a>
-          </li>
-         
-          <li class="footer_menu_item">
-            <a class="footer_menu_link" href="#0"> посмотреть лоты</a>
-          </li>
-         
-          <li class="footer_menu_item">
-            <a class="footer_menu_link" href="#0"> об аукционе</a>
-          </li>
-        </ul>
-      </nav>
 
+  
+  <footer class="footer">
+    <div class="footer_menu_nav">
+      <div class="header_menu_list_right">
+        <div class="header_menu_item header_menu_item_active">
+          <a class="header_menu_link" href="#0">  +9 999 555 5555</a>
+        </div>
+        <div class="header_menu_item">
+          <a class="header_menu_nav_link" href="#0"> info@sobaka.ge</a>
+        </div>
+        <div class="header_menu_item header_menu_item_active"> 
+          <a class="header_menu_nav_nolink" > наб. Принсенграхт 263-<br>265, Амстердам</a>
+        </div>
+      </div>
     </div>
-    <div class="footer-menu">
+    
+    <div class="footer-menu-center">
+      
+        <div class="footer_menu_list_left">
+          <div class="footer_menu_item header_menu_item_active">
+            <a class="footer_menu_link">главная</a>
+          </div>
+         
+          <div class="footer_menu_item">
+            <a class="footer_menu_link" href="#0"> посмотреть лоты</a>
+          </div>
+         
+          <div class="footer_menu_item">
+            <a class="footer_menu_link" href="#0"> об аукционе</a>
+          </div>
+        </div>
+    </div>
+
+    <div class="footer-menu-right">
       <svg xmlns="http://www.w3.org/2000/svg" width="237" height="48" viewBox="0 0 237 48" fill="none">
         <circle cx="213" cy="24" r="23.5" stroke="black"/>
         <path d="M221.736 18.4777C221.407 17.3515 220.878 16.4033 220.12 15.5793C219.378 14.7733 218.525 14.1621 217.51 13.7107C216.355 13.1978 215.016 12.9486 213.737 13.0088C213.27 13.0305 212.814 13.0553 212.367 13.1209C211.108 13.3034 210 13.6837 208.978 14.2838C207.674 15.0501 206.657 16.0928 205.953 17.383C205.588 18.0544 205.228 19.2383 205.075 20.0112C204.894 20.9228 205.053 22.5039 205.417 23.3956C205.87 24.507 206.244 24.9995 207.154 25.687C207.159 25.6911 207.722 26.1018 208.097 26.0956C208.78 26.0823 208.916 25.4205 208.981 25.1024C208.993 25.0424 209.005 24.9829 209.019 24.9271C209.032 24.8779 209.049 24.8252 209.065 24.7703C209.161 24.4543 209.293 24.0218 209.075 23.6383C208.993 23.4946 208.896 23.3827 208.811 23.2844C208.764 23.2308 208.718 23.1792 208.68 23.1222C208.356 22.6348 208.192 22.0249 208.192 21.3095C208.192 20.3709 208.402 19.5208 208.833 18.7108C209.616 17.2416 210.915 16.3141 212.59 16.0283C213.543 15.8666 214.654 15.9343 215.488 16.2048C216.249 16.4523 216.897 16.89 217.362 17.4712C217.855 18.0863 218.136 18.8665 218.198 19.7906C218.239 20.3804 218.186 20.9742 218.143 21.3688C217.974 22.8874 217.538 24.1098 216.846 25.0028C216.28 25.7355 215.669 26.1029 214.978 26.1265C214.533 26.144 214.201 26.0519 213.9 25.8338C213.616 25.6288 213.448 25.3762 213.368 25.0396C213.278 24.6553 213.387 24.2568 213.502 23.8349L213.521 23.7675C213.622 23.3962 213.727 23.0571 213.831 22.7233C213.993 22.1973 214.162 21.6534 214.301 21.0227C214.459 20.3105 214.479 19.7355 214.366 19.2652C214.225 18.6817 213.916 18.2446 213.446 17.9657C212.948 17.6715 212.243 17.615 211.651 17.8215C210.769 18.1266 210.097 18.9381 209.805 20.0481C209.658 20.6119 209.615 21.2037 209.679 21.8059C209.728 22.2781 209.832 22.707 210.024 23.2252C210.018 23.2477 210.011 23.2713 210.004 23.2942C209.99 23.3405 209.978 23.385 209.968 23.4234C209.761 24.3007 209.559 25.166 209.358 26.0298C209.167 26.8499 208.975 27.6687 208.78 28.4957L208.736 28.6811C208.536 29.5237 208.33 30.3949 208.282 31.4351L208.26 31.8696C208.218 32.6776 208.175 33.5134 208.282 34.2866C208.303 34.4374 208.35 34.7757 208.679 34.8939C208.777 34.9687 208.871 35 208.963 35C209.238 35 209.483 34.717 209.691 34.477C210.37 33.6942 210.948 32.7059 211.457 31.4561C211.685 30.8971 211.836 30.2957 211.982 29.7139L212.07 29.3672C212.176 28.9529 212.281 28.533 212.384 28.1176L212.391 28.09C212.583 28.2601 212.804 28.4137 213.061 28.5561C213.604 28.861 214.217 29.0386 214.882 29.0838C215.506 29.1267 216.162 29.0457 216.886 28.8351C217.436 28.6761 217.963 28.4346 218.453 28.1172C220.208 26.9783 221.404 24.9859 221.822 22.5073C221.947 21.7667 222 21.1713 222 20.5166C222 19.7612 221.911 19.075 221.736 18.4777ZM220.968 22.3595C220.592 24.5918 219.533 26.3741 217.986 27.378C217.568 27.6495 217.118 27.8556 216.648 27.9914C216.022 28.1737 215.462 28.2446 214.941 28.2084C214.395 28.1712 213.917 28.0338 213.478 27.7873C213.039 27.5437 212.754 27.279 212.554 26.9297L212.023 26.0005L211.544 27.9034C211.441 28.3164 211.338 28.7337 211.232 29.1459L211.143 29.4977C210.998 30.0749 210.861 30.6201 210.657 31.121C210.201 32.2408 209.692 33.1265 209.103 33.8249C209.057 33.2304 209.091 32.5637 209.125 31.9156L209.147 31.476C209.191 30.5188 209.388 29.6888 209.578 28.8863L209.622 28.6999C209.818 27.8723 210.009 27.0524 210.2 26.2316C210.402 25.3687 210.603 24.5044 210.81 23.6291C210.816 23.6044 210.825 23.5755 210.834 23.5453C210.886 23.3684 210.94 23.1856 210.867 22.9998C210.681 22.5176 210.583 22.133 210.539 21.7134C210.487 21.2176 210.522 20.7332 210.643 20.2735C210.858 19.4519 211.328 18.8608 211.932 18.6517C212.082 18.5996 212.239 18.5773 212.389 18.5773C212.635 18.5773 212.862 18.6369 213.009 18.7234C213.272 18.8794 213.44 19.1245 213.524 19.4737C213.605 19.8055 213.582 20.2623 213.457 20.8311C213.325 21.4256 213.169 21.9282 213.005 22.4604C212.898 22.8034 212.79 23.152 212.686 23.5337L212.668 23.6004C212.535 24.0871 212.384 24.6386 212.526 25.2431C212.655 25.7905 212.94 26.2173 213.396 26.5478C213.85 26.8765 214.383 27.0235 215.007 27.0035C215.956 26.9712 216.804 26.4801 217.527 25.5446C218.32 24.5216 218.817 23.1498 219.003 21.4663C219.05 21.0372 219.108 20.3905 219.063 19.7302C218.987 18.6226 218.642 17.6767 218.035 16.9185C217.464 16.2046 216.675 15.6688 215.752 15.3693C214.795 15.058 213.528 14.9786 212.446 15.1628C210.498 15.4953 208.985 16.5778 208.071 18.2939C207.57 19.2352 207.326 20.2216 207.326 21.3095C207.326 22.2027 207.54 22.9772 207.961 23.6117C208.019 23.6994 208.088 23.7812 208.16 23.8637C208.225 23.9382 208.286 24.0085 208.323 24.0738C208.349 24.1454 208.274 24.3928 208.238 24.5117C208.217 24.5788 208.198 24.6433 208.182 24.7035C208.164 24.7735 208.148 24.8485 208.133 24.9242C208.116 25.0068 208.09 25.1343 208.063 25.2044C207.96 25.1637 207.773 25.0593 207.671 24.983C206.893 24.3959 206.608 24.0183 206.217 23.0605C205.924 22.3407 205.779 20.916 205.924 20.1841C206.086 19.364 206.432 18.32 206.711 17.8073C207.338 16.6584 208.247 15.7282 209.413 15.0428C210.336 14.5004 211.342 14.1559 212.491 13.9894C212.899 13.9294 213.332 13.906 213.777 13.8855C214.925 13.8309 216.127 14.0543 217.163 14.5143C218.066 14.9166 218.827 15.4606 219.486 16.1779C220.151 16.9001 220.615 17.7339 220.905 18.7273C221.057 19.2438 221.134 19.846 221.134 20.5166C221.134 21.1191 221.085 21.6703 220.968 22.3595Z" fill="black"/>
@@ -220,7 +244,7 @@
 
     </div>
 
-  </section>
+  </footer>
 
-  </footer> 
+ 
 </html>
