@@ -8,17 +8,17 @@
   }
   
 
-.footer-menu-nav{
-    width: 240px;
-    height: 98px;
+.footer-menu-nav {
+    width: 240px; 
+    height: 98px; 
     justify-self: start;
 }
-.footer-menu-center{
+.footer-menu-center {
     justify-self: center;
     text-align: center;
     
     
 }
-.footer-menu-right{
+.footer-menu-right {
     justify-self: end;
 }
