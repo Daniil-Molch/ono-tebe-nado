@@ -1,68 +1,47 @@
 .about {
-    padding-inline: 20px;
-    display: grid;
-    grid-template-columns: [firts]334px 2fr ;
-    column-gap:25px;
-    min-height: 595px;
-    
-    align-items: baseline;
-    justify-items: end;
-    padding-top: 35px;
-
+  padding-inline: 20px;
+  display: grid;
+  grid-template-columns: min-content 1fr;
+  column-gap: 25px;
+  justify-items: end;
 }
 
 .logo-column {
-    display:flex;
-   width: 240px;
-   height: 240px;
-   margin: 0 71px;
-   border-radius: 50%;
-   background: #000;
-   
+  display: flex;
+  width: 240px;
+  height: 240px;
+  margin: 35px 70px 0px 47px;
+  border-radius: 50%;
+  background: #000;
+}
+.about-column {
+  margin-top: 133px;
 }
 
 .header-logo-img-white {
-    width: 148px;
-    height: 114px;
-    margin: auto;
-    object-fit: contain;
-}
-.about-column {
-    min-height: 449px;
+  width: 148px;
+  height: 114px;
+  margin: auto;
+  object-fit: contain;
 }
 
 .header-about {
-    color: #000;
-font-family: Raleway;
-font-size: 40px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
-text-transform: uppercase;
-margin-bottom: 100px;
+  color: #000;
+  font-family: "Raleway", sans-serif;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+  margin-bottom: 100px;
 }
-.about-text-1 {
-/* Здесь вы не встретите очередное пафосное собрание невероятно дорогого антиквариата. Наши лоты вообще не должны были попасть ни на один аукцион. Потому что кому нужен дневник девочки-подростка или картина, которую может нарисовать даже ребёнок? Кому нужны все эти странные вещи, созданные любителями? */
-
-
-
-font-family: 'Raleway';
-font-style: normal;
-font-weight: 400;
-font-size: 20px;
-line-height: 24px;
-/* or 120% */
-letter-spacing: 0.01em;
-color: #000000;
-margin-bottom: 38px;
-
-
-}
-.about-text-2 {
-font-family: 'Raleway';
-font-style: normal;
-font-weight: 400;
-font-size: 20px;
-line-height: 24px;
-color: #000000;
+.about-text {
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0.01em;
+  color: #000000;
+  margin-bottom: 24px;
 }
