@@ -1,5 +1,5 @@
 .lots {
-  padding-inline: 33px;
+  padding-inline: 22px;
   margin-bottom: 146px;
 }
 .lots-header {
@@ -11,7 +11,7 @@
   font-weight: 700;
   line-height: normal;
   text-transform: uppercase;
-  margin-left: 37px;
+  margin-left: 39px;
 }
 .lots-cards-conteiner {
   display: grid;
@@ -26,7 +26,6 @@
   background-color: black;
   position: relative;
   z-index: 0;
-  cursor: pointer;
 }
 .lots-card > h3 {
   color: #fff;
@@ -46,6 +45,9 @@
   font-style: normal;
   font-weight: 400;
   line-height: 120%; /* 24px */
+}
+.card-link{
+  text-decoration: none;
 }
 .lots-card-background {
   position: absolute;

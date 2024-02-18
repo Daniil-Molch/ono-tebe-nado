@@ -2,7 +2,6 @@
   padding-inline: 20px;
   display: grid;
   grid-template-columns: min-content 1fr;
-  column-gap: 25px;
   justify-items: end;
 }
 
@@ -10,12 +9,12 @@
   display: flex;
   width: 240px;
   height: 240px;
-  margin: 35px 70px 0px 47px;
+  margin: 37px 70px 0px 49px;
   border-radius: 50%;
   background: #000;
 }
 .about-column {
-  margin-top: 133px;
+  margin-top: 138px;
 }
 
 .header-logo-img-white {

@@ -8,12 +8,12 @@
   background-size: cover;
   background-position: center;
   /* background: rgba(0, 0, 0, 0.60);*/
-  margin-bottom: 179px;
+  margin-bottom: 181px;
 }
 .cover-title {
   display: flex;
   flex-direction: column;
-  row-gap: 20px;
+  row-gap: 27px;
   color: #fff;
   font-family: 'Raleway', sans-serif;
   font-size: 100px;

@@ -1,10 +1,9 @@
 .footer {
-  margin: 180px 50px 88px 50px;
+  margin: 157px 50px 88px 50px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   align-items: start;
 }
-
 .footer-menu-nav {
   display: flex;
   width: 240px;
@@ -35,7 +34,4 @@
   align-items: center;
   gap: 20px 48px;
   list-style: none;
-}
-.footer-social-item {
-  cursor: pointer;
 }

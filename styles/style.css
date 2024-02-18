@@ -5,11 +5,12 @@
   padding: 92px 49.5px 96px 50.5px;
 }
 
-.header-menu {
+.header-menu-link-list {
   display: flex;
   align-items: center;
   gap: 0px 33px;
   margin-right: 36px;
+  text-underline-offset: 5px;
 }
 
 .header-menu-item {
