@@ -9,21 +9,6 @@
   width: 240px;
   justify-self: start;
 }
-.footer-menu-link {
-  color: #000;
-  font-family: "Raleway", sans-serif;
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-  text-underline-offset: 5px;
-}
-.footer-menu-list-right {
-  font-weight: 400;
-  font-size: 18px;
-  font-style: normal;
-  line-height: 24.3px;
-}
 .footer-menu-center {
   justify-self: center;
   text-align: center;
