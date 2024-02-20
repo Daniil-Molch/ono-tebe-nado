@@ -18,7 +18,7 @@
   grid-template-columns: 1fr 1fr 1fr;
   gap: 25px;
 }
-.lots-card-1 {
+.lots-card {
   min-height: 554px;
   display: flex;
   flex-direction: column;
@@ -26,62 +26,25 @@
   background-color: black;
   position: relative;
   z-index: 0;
-  background-image: url(/images/card-lot-01.jpg);
   background-position: center;
   background-size: cover;
+}
+.lots-card-1 {
+  background-image: url("../images/card-lot-01.jpg");
 }
 .lots-card-2 {
-  min-height: 554px;
-  display: flex;
-  flex-direction: column;
-  padding: 48px 35px 46px 39px;
-  position: relative;
-  z-index: 0;
-  background-image: url(/images/card-lot-02.jpg);
-
-  background-position: center;
-  background-size: cover;
+  background-image: url("../images/card-lot-02.jpg");
 }
 .lots-card-3 {
-  min-height: 554px;
-  display: flex;
-  flex-direction: column;
-  padding: 48px 35px 46px 39px;
-  position: relative;
-  z-index: 0;
-  background-image: url(/images/card-lot-03.jpg);
-  background-position: center;
-  background-size: cover;
+  background-image: url("../images/card-lot-03.jpg");
 }
-.lots-card-1 > h3 {
+.lots-card > h3 {
   color: #fff;
   font-family: "Raleway", sans-serif;
   font-size: 22px;
   font-style: normal;
   font-weight: 700;
-  line-height: 120%; 
-  text-decoration-line: underline;
-  text-transform: uppercase;
-}
-
-.lots-card-2 > h3 {
-  color: #fff;
-  font-family: "Raleway", sans-serif;
-  font-size: 22px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 120%; 
-  text-decoration-line: underline;
-  text-transform: uppercase;
-}
-
-.lots-card-3 > h3 {
-  color: #fff;
-  font-family: "Raleway", sans-serif;
-  font-size: 22px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 120%; 
+  line-height: 120%;
   text-decoration-line: underline;
   text-transform: uppercase;
 }
@@ -93,7 +56,7 @@
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
-  line-height: 120%; 
+  line-height: 120%;
 }
 .lots-card-2 > p {
   margin-top: auto;
@@ -102,7 +65,7 @@
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
-  line-height: 120%; 
+  line-height: 120%;
 }
 .lots-card-3 > p {
   margin-top: auto;
@@ -111,7 +74,7 @@
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
-  line-height: 120%; 
+  line-height: 120%;
 }
 
 .card-link {
