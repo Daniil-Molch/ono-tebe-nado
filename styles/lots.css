@@ -48,8 +48,7 @@
   text-decoration-line: underline;
   text-transform: uppercase;
 }
-
-.lots-card-1 > p {
+.lots-card > p {
   margin-top: auto;
   color: #fff;
   font-family: "Raleway", sans-serif;
@@ -58,25 +57,6 @@
   font-weight: 400;
   line-height: 120%;
 }
-.lots-card-2 > p {
-  margin-top: auto;
-  color: #fff;
-  font-family: "Raleway", sans-serif;
-  font-size: 20px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 120%;
-}
-.lots-card-3 > p {
-  margin-top: auto;
-  color: #fff;
-  font-family: "Raleway", sans-serif;
-  font-size: 20px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 120%;
-}
-
 .card-link {
   text-decoration: none;
 }
